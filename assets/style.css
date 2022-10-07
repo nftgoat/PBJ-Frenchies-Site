@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f1e5 !important;
+    background-color: #fcedc0 !important;
 }
 nav {
     background-color: #B49CFF;
@@ -12,9 +12,10 @@ nav a {
     background-color: #9F80FA;
 }
 .jumbotron {
-    background-color: #FAEF7F !important;
-    color: #6147AD;
+    background-color: #9F80FA !important;
+    color: #FAEF7F;
     font-family: 'Abril Fatface', cursive;
+    border: #ADA336 3px solid;
 }
 .btn.btn-outline-success.my-2.my-sm-0 {
     color: #FAEF7F;
@@ -23,12 +24,14 @@ nav a {
 h2 {
     font-family: 'Permanent Marker', cursive;  
     color: #9F80FA;
+    font-size: 45px !important;
     padding-top: 21px;
     padding-bottom: 21px;
     padding-left: 21px;
 }
 .carousel.slide {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border: #ADA336 3px solid;
 }
 .accordion.my-4 {
     font-family: 'Source Code Pro', monospace;
@@ -36,8 +39,9 @@ h2 {
     background-color: #FAEF7F !important;
 }
 
-.accordion.my-4 card {
+.accordion.my-4.card {
     background-color: #FAEF7F !important;
+    color: #6147AD;
 }
 
 .form-group {
@@ -49,4 +53,11 @@ h2 {
 .btn.btn-primary {
     background-color: #6147AD !important;
     color: #FAEF7F;
+}
+
+h6 {
+    color: #6147AD;
+    font-family: 'Abril Fatface', cursive;
+    margin: 20px;
+    padding-top: 20px;
 }
