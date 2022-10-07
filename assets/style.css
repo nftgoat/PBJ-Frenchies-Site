@@ -1,0 +1,19 @@
+nav {
+    background-color: #B49CFF;
+}
+nav a {
+    color: #F7FA28;
+    font-family: 'Abril Fatface', cursive;
+}
+.dropdown-menu.show {
+    background-color: #9F80FA;
+}
+.jumbotron {
+    background-color: #A142FF;
+    color: #6147AD;
+    font-family: 'Abril Fatface', cursive;
+}
+.btn.btn-outline-success.my-2.my-sm-0 {
+    color: #FAEF7F;
+    border-color: #FAEF7F;
+}
