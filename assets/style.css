@@ -9,11 +9,25 @@ nav a {
     background-color: #9F80FA;
 }
 .jumbotron {
-    background-color: #A142FF;
+    background-color: #FAEF7F;
     color: #6147AD;
     font-family: 'Abril Fatface', cursive;
 }
 .btn.btn-outline-success.my-2.my-sm-0 {
     color: #FAEF7F;
     border-color: #FAEF7F;
+}
+h2 {
+    font-family: 'Permanent Marker', cursive;  
+    color: #9F80FA;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 21px;
+}
+.carousel.slide {
+    padding-bottom: 30px;
+}
+.accordion.my-4 {
+    font-family: 'Source Code Pro', monospace;
+    color: #6147AD;
 }
