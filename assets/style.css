@@ -1,15 +1,18 @@
+body {
+    background-color: #f5f1e5 !important;
+}
 nav {
     background-color: #B49CFF;
 }
 nav a {
-    color: #F7FA28;
+    color: #F7FA28 !important;
     font-family: 'Abril Fatface', cursive;
 }
 .dropdown-menu.show {
     background-color: #9F80FA;
 }
 .jumbotron {
-    background-color: #FAEF7F;
+    background-color: #FAEF7F !important;
     color: #6147AD;
     font-family: 'Abril Fatface', cursive;
 }
@@ -30,10 +33,20 @@ h2 {
 .accordion.my-4 {
     font-family: 'Source Code Pro', monospace;
     color: #9F80FA;
+    background-color: #FAEF7F !important;
+}
+
+.accordion.my-4 card {
+    background-color: #FAEF7F !important;
 }
 
 .form-group {
     font-family: 'Source Code Pro', monospace;
     color: #9F80FA;
     
+}
+
+.btn.btn-primary {
+    background-color: #6147AD !important;
+    color: #FAEF7F;
 }
