@@ -29,5 +29,11 @@ h2 {
 }
 .accordion.my-4 {
     font-family: 'Source Code Pro', monospace;
-    color: #6147AD;
+    color: #9F80FA;
+}
+
+.form-group {
+    font-family: 'Source Code Pro', monospace;
+    color: #9F80FA;
+    
 }
