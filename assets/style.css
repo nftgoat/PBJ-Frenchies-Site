@@ -28,6 +28,7 @@ h2 {
     padding-top: 21px;
     padding-bottom: 21px;
     padding-left: 21px;
+    text-align: center;
 }
 .carousel.slide {
     margin-bottom: 30px;
@@ -55,10 +56,15 @@ h2 {
     color: #FAEF7F;
 }
 
-h6 {
-    color: #6147AD;
+
+.breadcrumb {
+    background-color: #B49CFF !important;
+    color: #F7FA28;
     font-family: 'Abril Fatface', cursive;
-    margin: 20px;
-    padding-top: 20px;
-    font-size: 21px !important;
+    font-size: 21px;
+}
+.card {
+    background-color: #B49CFF !important;
+    color: #F7FA28;
+    font-family: 'Source Code Pro', monospace;
 }
