@@ -1,26 +1,41 @@
 body {
     background-color: #fcedc0 !important;
 }
+
 nav {
     background-color: #B49CFF;
 }
+
 nav a {
     color: #F7FA28 !important;
     font-family: 'Abril Fatface', cursive;
+    font-size: 18px;
 }
+
+nav a:hover {
+    color: #6147AD !important;
+}
+
 .dropdown-menu.show {
     background-color: #9F80FA;
 }
+
 .jumbotron {
     background-color: #9F80FA !important;
     color: #FAEF7F;
     font-family: 'Abril Fatface', cursive;
     border: #ADA336 3px solid;
 }
+
+#puppiesJumbo {
+    margin: 0vh 30vw 0vh 30vw !important;
+}
+
 .btn.btn-outline-success.my-2.my-sm-0 {
     color: #FAEF7F;
     border-color: #FAEF7F;
 }
+
 h2 {
     font-family: 'Permanent Marker', cursive;  
     color: #9F80FA;
@@ -30,19 +45,10 @@ h2 {
     padding-left: 21px;
     text-align: center;
 }
+
 .carousel.slide {
     margin-bottom: 30px;
     border: #ADA336 3px solid;
-}
-.accordion.my-4 {
-    font-family: 'Source Code Pro', monospace;
-    color: #9F80FA;
-    background-color: #FAEF7F !important;
-}
-
-.accordion.my-4.card {
-    background-color: #FAEF7F !important;
-    color: #6147AD;
 }
 
 .form-group {
@@ -54,8 +60,8 @@ h2 {
 .btn.btn-primary {
     background-color: #6147AD !important;
     color: #FAEF7F;
+    border: #ADA336 3px solid;
 }
-
 
 .breadcrumb {
     background-color: #B49CFF !important;
@@ -63,8 +69,34 @@ h2 {
     font-family: 'Abril Fatface', cursive;
     font-size: 21px;
 }
+
 .card {
     background-color: #B49CFF !important;
     color: #F7FA28;
     font-family: 'Source Code Pro', monospace;
+}
+
+#navbutton:hover {
+    background-color: #6147AD !important;
+}
+
+#merchButton {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+button {
+    background-color: #fcedc0;
+    border: 0px;
+}
+
+@media (min-width: 992px) {
+    .logo {
+        margin-right: 2vw;
+    }
+    #firstA {
+        margin-left: 3vw !important;
+    }
 }
