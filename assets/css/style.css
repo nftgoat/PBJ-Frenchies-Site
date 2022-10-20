@@ -68,6 +68,8 @@ h2 {
     color: #F7FA28;
     font-family: 'Abril Fatface', cursive;
     font-size: 21px;
+    display: flex;
+    justify-content: center;
 }
 
 .card {
