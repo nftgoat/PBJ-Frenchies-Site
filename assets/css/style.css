@@ -26,6 +26,15 @@ nav a:hover {
     font-family: 'Abril Fatface', cursive;
     border: #ADA336 3px solid;
 }
+
+#puppies {
+    margin-left: 24vw;
+    margin-top: 3vh;
+    background-color: #6147AD !important;
+    color: #FAEF7F;
+    border-color: #B49CFF;
+}
+
 p {
     font-family: 'Source Code Pro', monospace !important;
     text-align: center !important;
