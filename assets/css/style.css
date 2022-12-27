@@ -28,11 +28,12 @@ nav a:hover {
 }
 
 #puppies {
-    margin-left: 24vw;
+    margin-left: 18vw;
     margin-top: 3vh;
     background-color: #6147AD !important;
     color: #FAEF7F;
     border-color: #B49CFF;
+    
 }
 
 p {
