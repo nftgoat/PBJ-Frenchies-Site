@@ -40,6 +40,10 @@ p {
     text-align: center !important;
 }
 
+#none {
+    font-family: 'Source Code Pro', monospace;
+}
+
 #puppiesJumbo {
     margin: 0vh 30vw 0vh 30vw !important;
 }
